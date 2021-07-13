@@ -1,0 +1,271 @@
+body {
+  display: flexbox;
+  flex-direction: column;
+  background-color: ivory;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+}
+
+#MainHeader {
+  background-color: gainsboro;
+  color: black;
+  padding: 0%;
+  font-display: flex;
+  box-sizing: content-box;
+  margin: 0%;
+  border: 0%;
+  border-bottom: 5px solid black;
+}
+h1 {
+  font-size: 75px;
+  margin: 0%;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 0%;
+}
+
+nav ul {
+  display: flex;
+  padding-left: 50%;
+  padding-right: 5%;
+  list-style: none;
+  text-align: end;
+  text-decoration-line: underline;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+}
+
+h3 {
+  border-right: 3px solid black;
+  padding: 5% 1% 1% 1%;
+  margin: 3%;
+  font-size: 40px;
+}
+
+.About {
+  display: flex;
+  margin: 1%;
+  padding: 1%;
+  visibility: inherit;
+  background-origin: padding-box;
+  text-align: center;
+  box-sizing: content-box;
+}
+p {
+  text-align: center;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  box-sizing: border-box;
+}
+
+.toppro {
+  width: 25%;
+  height: 25%;
+  border-style: groove;
+  margin-right: 5%;
+}
+
+.Resume {
+  display: flex;
+  margin: 1%;
+  padding: 2%;
+}
+
+.My-Work {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1%;
+  flex: 4;
+  justify-content: flex-end;
+}
+
+.Contact-Me {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Mylinks {
+  display: flex;
+  text-size-adjust: 25px;
+}
+.Mylinks ul {
+  display: flex;
+  padding-left: 2%;
+  padding-right: 5%;
+  list-style: none;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#content {
+  font-weight: bold;
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+h4 {
+  border-right: 3px solid black;
+  padding: 5% 1% 1% 1%;
+  font-size: 40px;
+}
+.cardCoup:hover {
+  box-shadow: inset 0px 0px 8px rgba(152, 241, 212, 0.911),
+    0 0 15px rgba(152, 241, 212, 0.911);
+}
+
+.cardCoup {
+  background-image: url(/Users/mauriarroyo-velasco/MauriAV-Profile/images/4F14C6AB-CF3C-4793-AB65-927D5DBE272B_1_105_c.jpeg);
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  background-image: 50%;
+  height: 200px;
+  width: 600px;
+  padding: 65px;
+  margin: 1%;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 40px;
+}
+.cardWorth:hover {
+  box-shadow: inset 0px 0px 8px rgba(152, 241, 212, 0.911),
+    0 0 15px rgba(152, 241, 212, 0.911);
+}
+.cardWorth {
+  background-image: url(/Users/mauriarroyo-velasco/MauriAV-Profile/images/95ADDCF1-BC74-4376-A7D6-0694AB6A9C26_1_105_c.jpeg);
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  background-image: 50%;
+  height: 300px;
+  width: 300px;
+  padding: 25px;
+  margin: 1%;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 40px;
+}
+.cardSea:hover {
+  box-shadow: inset 0px 0px 8px rgba(152, 241, 212, 0.911),
+    0 0 15px rgba(152, 241, 212, 0.911);
+}
+.cardSea {
+  background-image: url(/Users/mauriarroyo-velasco/MauriAV-Profile/images/35A3FE5B-3FE5-4DB8-A471-AACC8C8CF746_1_105_c.jpeg);
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  background-image: 50%;
+  height: 300px;
+  width: 300px;
+  padding: 25px;
+  margin: 1%;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 40px;
+}
+.cardMount:hover {
+  box-shadow: inset 0px 0px 8px rgba(152, 241, 212, 0.911),
+    0 0 15px rgba(152, 241, 212, 0.911);
+}
+.cardMount {
+  background-image: url(/Users/mauriarroyo-velasco/MauriAV-Profile/images/C628D7E5-3496-422C-A265-1BDDD89B6E03_1_105_c.jpeg);
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  height: 200px;
+  width: 600px;
+  padding: 65px;
+  margin: 1%;
+  text-align: right;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#WorkHeader {
+  font-size: 40px;
+  text-align: center;
+  background-repeat: no-repeat;
+  padding: 5px 2px 2px;
+}
+
+footer {
+  background-color: gainsboro;
+  font-weight: bolder;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  #content {
+    flex-direction: column;
+  }
+  .Mylinks ul {
+    flex-direction: column;
+  }
+section {
+    flex-direction: column;
+}
+.About{
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width: 768px) {
+  body nav ul {
+    flex-direction: column;
+  }
+  .Mylinks ul {
+    flex-direction: column;
+  }
+ section {
+    flex-direction: column;
+}
+.About {
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width: 576px) {
+  .main {
+    flex-direction: column;
+  }
+  body nav {
+    flex-direction: column;
+  }
+  .Mylinks ul {
+    flex-direction: column;
+  }
+section {
+        flex-direction: column;
+    }
+
+    }
